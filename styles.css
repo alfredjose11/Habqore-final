@@ -1,4 +1,4 @@
-﻿/* ═══════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════
    HABQORE — styles.css
    Premium Corporate Intelligence Website
    White / Navy · Corporate · Professional
@@ -143,7 +143,7 @@ input, select, textarea, button { font-family: inherit; }
 
 /* Site Logo */
 .site-logo { display: flex; align-items: center; flex-shrink: 0; }
-.logo-img { height: 48px; width: auto; object-fit: contain; }
+.logo-img { height: 70px; width: auto; object-fit: contain; }
 .logo-fallback { display: flex; align-items: center; gap: .6rem; }
 .logo-text-group { display: flex; flex-direction: column; line-height: 1.1; }
 .lt-hab  { font-family: var(--ff-head); font-size: 1.5rem; font-weight: 800; color: var(--navy-700); }
@@ -159,7 +159,7 @@ input, select, textarea, button { font-family: inherit; }
 }
 .nav-item:hover, .nav-item.active { color: var(--navy-700); background: var(--blue-50); }
 .nav-btn {
-  background: var(--grad-blue); color: var(--white) !important;
+  background: var(--navy-700) ; color: var(--white) !important;
   font-size: .84rem; font-weight: 600;
   padding: .48rem 1.2rem; border-radius: var(--r-full);
   margin-left: .5rem; box-shadow: var(--sh-blue);
@@ -3589,40 +3589,40 @@ input, select, textarea, button { font-family: inherit; }
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
 }
 
 .rp {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 10px;
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 100px;
     padding: 10px 18px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
-    color: #475569;
+    color: #061c3b;
     transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
     cursor: pointer;
 }
 
 .rp .pill-ico {
-    width: 14px;
-    height: 14px;
-    color: #64748b;
+    width: 40px;
+    height: 17px;
+    color: #3287bb;
     transition: color 0.25s ease;
 }
 
 .rp:hover {
     background: #eff6ff;
     border-color: #bfdbfe;
-    color: #2563eb;
+    color: #237aac;
     transform: translateX(4px);
 }
 
 .rp:hover .pill-ico {
-    color: #2563eb;
+    color: #041c4d;
 }
 
 .view-all-trigger {
@@ -3642,7 +3642,7 @@ input, select, textarea, button { font-family: inherit; }
 
 /* --- LUXURY INTERACTIVE GRADIENT CTA PANEL (COLUMN 3) --- */
 .grow-cta-card {
-    background: linear-gradient(145deg, #eff6ff 0%, #dbeafe 100%);
+    background: linear-gradient(145deg, #e5e6e7 50%, #a2bcdd 70%);
     border-radius: 20px;
     padding: 40px 30px;
 }
@@ -3657,7 +3657,7 @@ input, select, textarea, button { font-family: inherit; }
     width: 48px;
     height: 48px;
     border-radius: 14px;
-    background: #2563eb;
+    background: #8da7df;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -3920,9 +3920,9 @@ input, select, textarea, button { font-family: inherit; }
 }
 
 .company-logo-badge {
-  width: 64px;
-  height: 64px;
-  background: #ffffff;
+  width: 230px;
+  height: 100px;
+  background: #fdfefff9;
   border-radius: 16px;
   padding: 10px;
   display: flex;
@@ -3935,7 +3935,7 @@ input, select, textarea, button { font-family: inherit; }
 
 .dashboard-brand-img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 100% ;
   object-fit: contain;
 }
 
@@ -4314,7 +4314,7 @@ input, select, textarea, button { font-family: inherit; }
 }
 
 .f-brand-logo-asset {
-    height: 48px;
+    height: 80px;
     width: auto;
     object-fit: contain;
 }
